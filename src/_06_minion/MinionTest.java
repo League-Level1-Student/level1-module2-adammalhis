@@ -17,6 +17,9 @@ Run this MinionTest class. Notice the JUnit tab (by the Package Explorer). It sh
 not run successfully. Check the Failure Trace below that shows "Minion cannot be resolved to a type". 
 This is because there is no Minion class in the package.
 
+
+
+
 2.
  So to make these tests pass, you will first need to create a Minion class with the member variables below:
 
@@ -24,6 +27,8 @@ This is because there is no Minion class in the package.
   			private int eyes; 
   			private String color; 
   			private String master;
+
+
 
  3.
   Next, create a constructor, and getters and setters for all the member variables of the Minion class. 
